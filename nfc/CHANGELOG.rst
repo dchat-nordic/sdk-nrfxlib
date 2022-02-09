@@ -34,6 +34,8 @@ Added
 * A dedicated header file :file:`nrf_nfc_errno.h` with error codes.
 * A source file that translates nrfx error codes to NFC library error codes.
 * Definitions for returned error codes in the API documentation.
+* Intermediate callback processing with :c:func:`nfc_platform_cb_request` function.
+* A header :file:`nfc_platform.h` file for platform layer.
 
 Modified
 ========
